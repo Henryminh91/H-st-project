@@ -1,6 +1,4 @@
-body{
-    background:#d0b7a6;
-}
+
 p{
     font-size: 20px;
     font-family: cursive;
@@ -18,7 +16,55 @@ img{
 
 .about{
     display:flex;
-    flex-direction:column;
-    align-items:center;
-    flex-wrap:wrap-reverse
+    flex-direction:wrap;
+    justify-content:space-evenly;
+    
+   
+}
+#pic{
+  width:300px;
+  height:300px;
+}
+#pic1{
+  width:300px;
+  height:300px;
+}
+#pic2{
+  width:300px;
+  height:300px;
+}
+
+
+body{
+  margin:0%;
+  background-color:  #D3D3D3;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  float:left;
+  background-color:white;
+  color: black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
 }
