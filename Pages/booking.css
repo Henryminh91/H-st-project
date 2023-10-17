@@ -1,20 +1,17 @@
 
+body{
+  background-color: 	#cdcdcd;
+}
 img{
     width:300px;
     border-radius:20px;
     float:right;
 }
 
-body {
-  width: 500px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #D3D3D3
- 
-}
+
 
 div.elem-group {
-  margin: 20px 0;
+   margin: 20px 0;
 }
 
 
@@ -32,12 +29,12 @@ input, select, textarea {
   box-sizing: border-box;
   font-size: 1.25em;
   font-family: 'Nanum Gothic';
-  width: 100%;
+  width: 50%;
   padding: 10px;
 }
 
 div.elem-group.inlined input {
-  width: 95%;
+  width: 30%%;
   display: inline-block;
 }
 
@@ -58,6 +55,15 @@ button {
   font-family: 'Nanum Gothic';
   border-radius: 4px;
   cursor: pointer;
+}
+#message{
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 70%;
+  padding: 10px;
 }
 
 button:hover {
@@ -93,4 +99,12 @@ button:hover {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
+}
+.container{
+  display:flex;
+ justify-content: center;
+ flex-direction: column;
+ float:right;
+  
+  
 }
